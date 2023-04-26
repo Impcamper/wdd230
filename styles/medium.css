@@ -2,11 +2,11 @@
     
 
 
-header .flex-box{
-    flex-direction: column;
-}
-body{
-    margin: .5em;
-}
-h1{text-align: center;}
+    header .flex-box{
+        flex-direction: column;
+    }
+    body{
+        margin: .5em;
+    }
+    h1{text-align: center;}
 }
