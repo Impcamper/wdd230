@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        flex: 100%;
+    }
+    .content-box{
+        flex: 40%;
+    }
+    footer{
+        flex: 0 0 100%;
+    }
+}
