@@ -5,6 +5,7 @@ header, footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 3px;
 }   
 a{
     color: white;
@@ -20,7 +21,10 @@ a:hover{
 h1, h2, h3, h4, h5, a{
     font-family: 'Raleway',sans-serif;
 }
-
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .content-box{
     display: flex;
     flex-direction: column;
