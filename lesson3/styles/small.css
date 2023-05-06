@@ -1,0 +1,14 @@
+header, footer{
+    background-color: #192134;
+    color: white;
+    border-radius: 1em;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}   
+header h1{
+    margin-bottom: 0;
+}
+footer{
+    flex-direction: column;
+}
