@@ -9,6 +9,62 @@ header, footer{
 header h1{
     margin-bottom: 0;
 }
+header div{
+    margin-bottom: 5px;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, a{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+header a:hover{
+    color: rgb(169, 169, 169);
+}
 footer{
     flex-direction: column;
+}
+#nav2{
+    font-family: serif;
+}
+/**Unique code, not genral setup**/
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.nav{
+    background-color: #3B8EA5;
+}
+a:hover{
+    color: rgb(121, 121, 121);
+}
+#fonts{
+    border-spacing: 0;
+}
+#fonts td{
+    border: solid;
+    border-width: 2px;
+}
+#color1{
+    background-color: #2D728F;
+}
+#color2{
+    background-color: #3B8EA5;
+}
+#color3{
+    background-color: #F5EE9E;
+}
+#bigheader{
+    background-color: #2D728F;
+}
+#bigheader h1{
+    font-size: 40px;
 }
