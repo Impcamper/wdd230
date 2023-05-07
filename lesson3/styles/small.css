@@ -34,7 +34,15 @@ footer{
 #nav2{
     font-family: serif;
 }
-/**Unique code, not genral setup**/
+main{
+    display: grid;
+    justify-items: center;
+}
+section{
+    display: grid;
+    justify-items: center;
+}
+/**Design code**/
 a{
     text-decoration: none;
     color: black;
@@ -52,9 +60,11 @@ a:hover{
 #fonts td{
     border: solid;
     border-width: 2px;
+    border-color: black;
 }
 #color1{
-    background-color: #2D728F;
+    background-color: #183E4E;
+    color: white;
 }
 #color2{
     background-color: #3B8EA5;
@@ -63,8 +73,18 @@ a:hover{
     background-color: #F5EE9E;
 }
 #bigheader{
-    background-color: #2D728F;
+    background-color: #183E4E;
 }
 #bigheader h1{
     font-size: 40px;
+    color: white;
+}
+#miniheader{
+    color: #183E4E;
+}
+.headers{
+    color: #3B8EA5;
+}
+#map{
+    width: 50vw;
 }
