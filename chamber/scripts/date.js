@@ -1,4 +1,7 @@
+
 const select= document.getElementById("date");
 const now = new Date();
-let daynow = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
-select.innerHTML=daynow;
+
+const daynow = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+
+select.innerText=`<em>${fulldate}</em>`;
