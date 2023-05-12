@@ -1,7 +1,5 @@
+const date = new Date();
 
-const select= document.getElementById("date");
-const now = new Date();
-
-const daynow = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
-
-select.innerText=`<em>${fulldate}</em>`;
+const datefield = document.getElementById("date");
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(date);
+datefield.innerHTML = `<em>${fulldate}</em>`;
