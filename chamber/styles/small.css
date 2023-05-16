@@ -38,6 +38,12 @@ section, section div{
     text-align: center;
     margin: 5px;
 }
+.outerimg{
+    display: none;
+}
+#join{
+    display: none;
+}
 /* nav button stuff*/
 nav button{
     background: transparent;

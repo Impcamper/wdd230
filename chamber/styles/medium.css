@@ -1,0 +1,51 @@
+@media only screen and (min-width: 450px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        justify-content: space-between;
+    }
+    nav ul{
+        position: absolute;
+    }
+    nav{
+        width: auto;
+        margin: 0;
+    }
+    .outerimg{
+        display: inline;
+    }
+    header h1 img{
+        display: none;
+    }
+    nav button{
+        font-size: 5vw;
+    }
+    section{
+        width: 100%;
+    }
+    #hero{
+        order: 1;
+    }
+    #news{
+        order: 2;
+    }
+    #spotlight{
+        order: 3;
+    }
+    #join{
+        order: 4;
+        display: block;
+    }
+    #event{
+        order: 5;
+        width: auto;
+        flex-grow: 1;
+    }
+    #weather{
+        order: 5;
+        width: auto;
+        flex-grow: 1;
+    }
+}
