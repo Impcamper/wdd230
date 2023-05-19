@@ -1,1 +1,16 @@
-@media only screen and (min-width:760px){}
+@media only screen and (min-width:760px){
+    nav button{
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        position: relative;
+        background-color: transparent;
+    }
+    nav ul li a{
+        color: white;
+        border: none;
+        margin-right: 15px;
+        font-size: 18.72;
+    }
+}
