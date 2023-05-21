@@ -27,7 +27,7 @@ nav{
 a{
     text-decoration: none;
 }
-#daydiv{
+.miniheader{
     flex: 0 0 100%;
     text-align: center;
     border-top: inset black 2px;
@@ -43,6 +43,46 @@ section, section div{
 }
 #join{
     display: none;
+}
+#spot3{
+    display: none;
+}
+#hero img{
+    object-fit: contain;
+    width: 100%;
+}
+#hero h2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+#hero button{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%);
+}
+button{
+    border-radius: 10px;
+
+    padding: 0;
+}
+button div{
+    border: none;
+    color: black;
+    margin: 0;
+    padding: 5px;
+    background-color: #3B8EA5;
+}
+#join button{
+    width: 80%;
+}
+#meet{
+    display: none;
+}
+#spotlight img, #weather img{
+    width: 20%;
 }
 /* nav button stuff*/
 nav button{

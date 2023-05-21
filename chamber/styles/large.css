@@ -17,6 +17,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    #spot3{
+        display: block;
+    }
     section{
         width: auto;
     }
