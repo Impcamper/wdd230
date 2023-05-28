@@ -38,7 +38,12 @@
     <main>
         <section id="hero">
             <h2>Welcome to Dunkirk</h2>
-            <img src="images/dunkirkhero.jpg" alt="cityview">
+            <!--<img src="images/dunkirkhero.jpg" alt="cityview">-->
+            <picture>
+                <source media="(min-width: 760px)" srcset="images/wdd230-org.jpg">
+                <source media="(min-width: 450px)" srcset="images/wdd230-2143.jpg">
+                <img src="images/wdd230-600.jpg" alt="assigment img small">
+            </picture>
             <button><a href="#"><div>Join the chamber</div></a></button>
         </section>
         <section id="event">
@@ -48,11 +53,11 @@
         <section id="weather">
             <h2>Weather</h2>
             <img src="images/sun.png" alt="sun">
-            <h3 id="temp">32°C</h3>
+            <h3 ><span id="temp">32</span>°F</h3>
             <h3>Sunny</h3>
             <hr>
-            <p>Wind Speed: <span> 6 km/h</span></p>
-            <p>Wind Chill: <span>N/A</span></p>
+            <p>Wind Speed: <span id="speed">6</span> mph</p>
+            <p>Wind Chill: <span id="chill">N/A</span></p>
         </section>
         <section id="news">
             <h2>News</h2>
@@ -96,4 +101,5 @@
 <script src="scripts/date.js"></script>
 <script src="scripts/lastupdate.js"></script>
 <script src="scripts/sandwich.js"></script>
+<script src="scripts/windchill.js"></script>
 </html>
