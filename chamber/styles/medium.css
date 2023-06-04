@@ -48,4 +48,8 @@
         width: auto;
         flex-grow: 1;
     }
+    #discover picture img:hover{
+        transition: box-shadow .8s;
+        box-shadow: 5px 5px;
+    }
 }

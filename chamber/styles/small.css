@@ -27,6 +27,9 @@ nav{
 a{
     text-decoration: none;
 }
+a h1{
+    color: white;
+}
 .miniheader{
     flex: 0 0 100%;
     text-align: center;
@@ -84,6 +87,11 @@ button div{
 }
 #spotlight img, #weather img{
     width: 20%;
+}
+#discover{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 /* nav button stuff*/
 nav button{
