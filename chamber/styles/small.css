@@ -93,6 +93,9 @@ button div{
     align-items: center;
     flex-direction: column;
 }
+#discover img{
+    width: 50vw;
+}
 /* nav button stuff*/
 nav button{
     background: transparent;
