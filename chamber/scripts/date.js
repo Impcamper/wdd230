@@ -16,5 +16,5 @@ if (local!=null){
     else{
         local.textContent=`You last visited ${lastvist}`;
     }
-    localStorage.setItem("vist",fulldate);
+    localStorage.setItem("visit",fulldate);
 }
