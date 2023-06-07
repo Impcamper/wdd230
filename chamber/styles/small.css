@@ -61,10 +61,10 @@ section, section div{
     color: white;
 }
 #hero button{
-    position: absolute;
-    left: 60%;
-    top: 60%;
-    transform: translate(-50%);
+    position: relative;
+    left: 40%;
+    bottom: 10%;
+    transform: translate(-10%);
 }
 button{
     border-radius: 10px;
