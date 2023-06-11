@@ -137,3 +137,42 @@ h1, h2, h3, h4, a{
 footer a{
     font-family: serif;
 }
+/*join page nonsense*/
+form label,#blockin input{
+    display: block;
+}
+form{
+    display: grid;
+}
+#blockin label{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+#radios label{
+    padding: 7px 0 7px 0;
+}
+table{
+    border-collapse: collapse;
+    border: solid 1px black;
+    margin: 5px;
+}
+td{
+    text-align: center;
+    border: solid 1px black;
+}
+th, td{
+    padding: 5px;
+}
+th{
+    background-color: #183E4E;
+    color: white;
+    border-right: solid 1px black;
+}
+th:not(#tableempty){
+    border-top: solid 1px black;
+}
+#submit{
+    justify-self: center;
+    width: 80%;
+    padding: 10px;
+}

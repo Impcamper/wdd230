@@ -52,4 +52,10 @@
         transition: box-shadow .8s;
         box-shadow: 5px 5px;
     }
+    #joinpg{
+        flex-direction: column;
+    }
+    #joinpg h2{
+        text-align: center;
+    }
 }

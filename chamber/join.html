@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <meta name="discription" content="Join the Chamber">
+</head>
+<body>
+    <header>
+        <img class="outerimg" src="images/icon.webp" alt="Logo">
+        <a href="index.html"><h1><img src="images/icon.webp" alt="Logo">Dunkirk Chamber of Commerce</h1></a>
+        <nav>
+            <button id="navbutton">&#9776;</button>
+            <ul id="mainnav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">page2</a></li>
+                <li><a href="#">page3</a></li>
+                <li><a href="#">page4</a></li>
+                <li><a href="#">twitter</a></li>
+                <li><a href="#">facebook</a></li>
+            </ul>
+        </nav>
+        <div class="miniheader">
+            <h3 id="date"></h3>
+        </div>
+        <div class="miniheader" id="meet">
+            <h4>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h4>
+        </div>
+    </header>
+    <main id="joinpg"> 
+        <h2 id="">Join Us!</h2>
+        <form method="get">
+            <fieldset id="blockin">
+                <legend>Personal Details</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="email" name="email" placeholder="placehold@email.com" required></label>
+                <label>Phone Number*<input type="tel" name="phone" placeholder="1231231234" required></label>
+                <label>Business Name*<input type="text" name="title" required></label>
+                <label>Position Title<input type="text" name="title" minlength="7" pattern="[A-Za-z \-]*"></label><!--needs testing-->
+                <label>Business Summary<input type="text" name="summary"></label>
+                <input type="hidden" name="datetime">
+            </fieldset> 
+            <fieldset id="radios">
+                <legend>Membership level</legend>
+                <label><input type="radio" name="membership" value="np" required>Non-Profit</label>
+                <label><input type="radio" name="membership" value="bronze">Bronze</label>
+                <label><input type="radio" name="membership" value="silver">Silver</label>
+                <label><input type="radio" name="membership" value="gold">Gold</label>
+            </fieldset>
+            <input type="submit" value="Join" id="submit">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5">Membership Tiers</th>
+                </tr>
+                <tr>
+                    <th id="tableempty"></th>
+                    <th>Non-Profit</th>
+                    <th>Bronze</th>
+                    <th>Silver</th>
+                    <th>Gold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fee</td>
+                    <td>Waived</td>
+                    <td>1$</td>
+                    <td>10$</td>
+                    <td>30$</td>
+                </tr>
+                <tr>
+                    <td>Training</td>
+                    <td>Normal</td>
+                    <td>None</td>
+                    <td>Normal</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Advertising</td>
+                    <td>Front Page</td> 
+                    <td>None</td>
+                    <td>Mentions</td>
+                    <td>Front Page</td>
+                </tr>
+                <tr>
+                    <td>Discounts</td>
+                    <td>10%</td>
+                    <td>None</td>
+                    <td>5%</td>
+                    <td>15%</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>©<span id="year"></span> Dunkirk Chamber | Ian C. Hatcher | Louisiana | <span id="update"></span></p>
+        <a href="#">Contact</a><a href="/lesson3/design.html">Site Map</a>
+    </footer>
+</body>
+<script src="scripts/date.js"></script>
+<script src="scripts/lastupdate.js"></script>
+<script src="scripts/sandwich.js"></script>
+<script>
+    const dateinput = document.getElementsByName("datetime");
+    dateinput.value=fulldate;
+</script>
+</html>
