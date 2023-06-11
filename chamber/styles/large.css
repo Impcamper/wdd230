@@ -54,4 +54,10 @@
     #submit{
         padding: 5px;
     }
+    form{
+        margin-left: 10px;
+    }
+    table{
+        margin-right: 10px;
+    }
 }
