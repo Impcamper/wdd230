@@ -1,0 +1,23 @@
+header, footer{
+    background-color: #192134;
+    color: white;
+    border-radius: 1em;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px;
+}   
+div.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+}
+.cards section{
+    margin: 10px;
+    text-align: center;
+    border: solid 1px black;
+    padding: 5px;
+    background-color: #192134;
+    color: white;
+}
