@@ -1,0 +1,77 @@
+{
+    "businesses":[
+        {
+            "name": "company",
+            "address": "road street 1155",
+            "phone": "(123)123-4567",
+            "website": "www.website.com",
+            "icon": "images/computer.png",
+            "membership": "silver"
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        },
+        {
+            "name":  ,
+            "address": ,
+            "phone": ,
+            "website": ,
+            "icon": ,
+            "membership": 
+        }
+        
+    ]
+}
