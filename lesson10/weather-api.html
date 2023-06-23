@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/weather.css">
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+        <h1>Table Building</h1>
+        <h2>Ian Hatcher</h2>
+    </header>
+    <main>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+          <img src="" alt="" id="weather-icon" />
+          <figcaption></figcaption>
+        </figure>
+    </main>
+    <footer>
+        <h2>©<span id="year"></span> | Ian C. Hatcher | Louisiana</h2>
+        <h3 id="update"></h3>
+    </footer>
+    <script src="scripts/lastupdate.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+</html>
