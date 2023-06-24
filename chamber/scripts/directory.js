@@ -24,6 +24,7 @@ const displaybusinesses = (businesses) => {
     a.href=business.website;
     p.textContent=business.address;
     p2.textContent=business.phone;
+    pic.setAttribute("class","dirctimg");
 
     pic.src=business.icon;
     pic.alt=`Icon of ${business.name}`;

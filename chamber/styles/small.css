@@ -96,6 +96,25 @@ button div{
 #discover img{
     width: 50vw;
 }
+#directorymain{
+    display: block;
+}
+#directory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#directory div{
+    margin: 10px;
+    width: 16%;
+}
+#directory div a{
+    display: block;
+}
+.dirctimg{
+    max-width: 200px;
+}
 /* nav button stuff*/
 nav button{
     background: transparent;

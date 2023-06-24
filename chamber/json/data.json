@@ -1,76 +1,76 @@
 {
     "businesses":[
         {
-            "name": "company",
+            "name": "Digital World",
+            "address": "road street 1155",
+            "phone": "99-99999-99",
+            "website": "digitalworld.com",
+            "icon": "images/computer.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Hardwood Solutions",
+            "address": "road street 1155",
+            "phone": "99-99999-99",
+            "website": "digitalworld.com",
+            "icon": "images/table.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "NoirArt",
+            "address": "road street 1155",
+            "phone": "99-99999-99",
+            "website": "noirart.com",
+            "icon": "images/paintbrush.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Trenchant Printing",
             "address": "road street 1155",
             "phone": "(123)123-4567",
-            "website": "www.website.com",
-            "icon": "images/computer.png",
-            "membership": "silver"
+            "website": "Trenchantprinting.com",
+            "icon": "images/placehold.png",
+            "membership": "Bronze"
         },
         {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
+            "name": "Whisker Way",
+            "address": "road street 1155",
+            "phone": "(123)123-4567",
+            "website": "Whiskerway.com",
+            "icon": "images/placehold.png",
+            "membership": "Silver"
         },
         {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
+            "name": "Dapper",
+            "address": "road street 1155",
+            "phone": "(123)123-4567",
+            "website": "Dapper.com",
+            "icon": "images/placehold.png",
+            "membership": "Bronze"
         },
         {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
+            "name": "Kit Krafts",
+            "address": "road street 1155",
+            "phone": "(123)123-4567",
+            "website": "Kitkrafts.com",
+            "icon": "images/kat.jpg",
+            "membership": "Gold"
         },
         {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
+            "name": "Faded Out",
+            "address": "road street 1155",
+            "phone": "(123)123-4567",
+            "website": "Fadedout.com",
+            "icon": "images/placehold.png",
+            "membership": "Silver"
         },
         {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
-        },
-        {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
-        },
-        {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
-        },
-        {
-            "name":  ,
-            "address": ,
-            "phone": ,
-            "website": ,
-            "icon": ,
-            "membership": 
+            "name": "Crystals Spots",
+            "address": "road street 1155",
+            "phone": "(123)123-4567",
+            "website": "Crystalsspots.com",
+            "icon": "images/placehold.png",
+            "membership": "Bronze"
         }
         
     ]
