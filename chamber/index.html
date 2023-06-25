@@ -52,11 +52,13 @@
         </section>
         <section id="weather">
             <h2>Weather</h2>
-            <img src="images/sun.png" alt="sun">
-            <h3 ><span id="temp">32</span>°F</h3>
-            <h3>Sunny</h3>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+            </figure>
+            <h3 ><span id="temp"></span>°F</h3>
+            <h3 id="weathertype">Sunny</h3>
             <hr>
-            <p>Wind Speed: <span id="speed">6</span> mph</p>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
             <p>Wind Chill: <span id="chill">N/A</span></p>
         </section>
         <section id="news">
@@ -101,5 +103,6 @@
 <script src="scripts/date.js"></script>
 <script src="scripts/lastupdate.js"></script>
 <script src="scripts/sandwich.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/weatherapi.js"></script>
+
 </html>
