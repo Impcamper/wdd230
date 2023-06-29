@@ -18,3 +18,5 @@ if (local!=null){
     }
     localStorage.setItem("visit",fulldate);
 }
+const dateinput = document.getElementById("datetime");
+if(dateinput!=null){dateinput.value=fulldate;}
