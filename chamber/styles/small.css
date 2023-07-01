@@ -117,6 +117,12 @@ button div{
     max-width: 200px;
     width: 100%;
 }
+#list, #grid{
+    display: none;
+}
+#list:hover, #grid:hover{
+    background-color: rgb(189, 189, 189);
+}
 /* nav button stuff*/
 nav button{
     background: transparent;

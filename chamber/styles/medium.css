@@ -62,4 +62,16 @@
         margin: 10px;
         width: 16%;
     }
+    #directorymain{
+        display: flex;
+        justify-content: center;
+    }
+    #list, #grid{
+        display: block;
+        padding: 10px;
+        border-radius: 8px;
+        width: 20%;
+        min-width: 70px;
+        margin: 8px;
+    }
 }
