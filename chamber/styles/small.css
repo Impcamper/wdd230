@@ -123,6 +123,9 @@ button div{
 #list:hover, #grid:hover{
     background-color: rgb(189, 189, 189);
 }
+textarea{
+    display: block;
+}
 /* nav button stuff*/
 nav button{
     background: transparent;
