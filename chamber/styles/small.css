@@ -107,7 +107,8 @@ button div{
 }
 #directory div{
     margin: 10px;
-    width: 16%;
+    width: 30%;
+    overflow-wrap: break-word;
 }
 #directory div a{
     display: block;

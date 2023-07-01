@@ -58,4 +58,8 @@
     #joinpg h2{
         text-align: center;
     }
+    #directory div{
+        margin: 10px;
+        width: 16%;
+    }
 }
