@@ -60,18 +60,17 @@ section, section div{
     transform: translate(-50%);
     color: white;
 }
-#hero button{
+#hero .button{
     position: relative;
     left: 40%;
     bottom: 10%;
     transform: translate(-10%);
 }
-button{
+.button{
     border-radius: 10px;
-
     padding: 0;
 }
-button div{
+.button {
     border: none;
     color: black;
     margin: 0;
@@ -79,8 +78,9 @@ button div{
     border-radius: 8px;
     background-color: #3B8EA5;
 }
-#join button{
+#join .button{
     width: 80%;
+    padding: 8px 5vw 8px 5vw;
 }
 #meet{
     display: none;
