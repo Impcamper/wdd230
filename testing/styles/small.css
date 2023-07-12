@@ -1,0 +1,90 @@
+header, footer{
+    background-color: #192134;
+    color: white;
+    border-radius: 1em;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}   
+header h1{
+    margin-bottom: 0;
+}
+header div{
+    margin-bottom: 5px;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, a{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+header a:hover{
+    color: rgb(169, 169, 169);
+}
+footer{
+    flex-direction: column;
+}
+#nav2{
+    font-family: serif;
+}
+main{
+    display: grid;
+    justify-items: center;
+}
+section{
+    display: grid;
+    justify-items: center;
+}
+/**Design code**/
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.nav{
+    background-color: #3B8EA5;
+}
+a:hover{
+    color: rgb(121, 121, 121);
+}
+#fonts{
+    border-spacing: 0;
+}
+#fonts td{
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+}
+#color1{
+    background-color: #183E4E;
+    color: white;
+}
+#color2{
+    background-color: #3B8EA5;
+}
+#color3{
+    background-color: #F5EE9E;
+}
+#bigheader{
+    background-color: #183E4E;
+}
+#bigheader h1{
+    font-size: 40px;
+    color: white;
+}
+#miniheader{
+    color: #183E4E;
+}
+.headers{
+    color: #3B8EA5;
+}
+#map{
+    width: 50vw;
+}
