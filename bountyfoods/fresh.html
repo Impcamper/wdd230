@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>Fresh</title>
+    <meta name="description" content="">
 </head>
 <body>
-    
+    <header></header>
+    <main>
+        <h2></h2>
+        <form method="get">
+            <fieldset id="blockin">
+                <legend>Personal Details</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Email*<input type="email" name="email" placeholder="placehold@email.com" required></label>
+                <label>Phone Number*<input type="tel" name="phone" placeholder="1231231234" required></label>
+                <input type="hidden" name="datetime" id="datetime">
+            </fieldset>
+            <fieldset id="radios">
+                <legend>Drink details</legend>
+                <label >Fruit 1
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select>
+                    <!--repeate this one twice-->
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/fresh.js"></script>
 </body>
 </html>
