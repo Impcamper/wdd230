@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dosis:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -12,19 +13,40 @@
 </head>
 <body>
     <header>
-        <img src="" alt="">
         <a href="index.html"><h1>Bountiful Foods</h1></a>
-        <button id="navbutton">&#9776;</button>
-            <ul id="mainnav">
-                <li><a href="fresh.html">Specialty Drinks</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
+        <nav>
+            <button id="navbutton">&#9776;</button>
+                <ul id="mainnav">
+                    <li><a href="fresh.html">Specialty Drinks</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+        </nav>
     </header>
     <main>
-        <section><!--Hero--></section>
-        <section><!--Social--></section>
-        <section><!--Weather--></section>
-        <section><!--Ordered drinks--></section>
+        <section id="hero">
+            <!--Hero-->
+            <img src="images/strawberry.jpg" alt="strawberries">
+            <a href="fresh.html" class="button">Order a Drink</a>
+        </section>
+        <section>
+            <!--Social-->
+            <h2>Join us on other platforms!</h2>
+            <a href="facebook.com"><img src="images/facebook.svg" alt="facebook"></a>
+            <a href="youtube.com"><img src="images/youtube.svg" alt="youtube"></a>
+            <a href="twitter.com"><img src="images/twitter.svg" alt="twitter"></a>
+        </section>
+        <section id="weather">
+            <h2>Weather</h2>
+            <figure>
+                <img src="images/sun.png" alt="" id="weather-icon">
+            </figure>
+            <h3 ><span id="temp"></span>°F</h3>
+            <h3 id="weathertype">Sunny</h3>
+            <hr>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
+            <p>Wind Chill: <span id="chill">N/A</span></p>
+        </section>
+        <section id="drinks"><!--Ordered drinks--></section>
     </main>
     <footer>
         <div><!--info--></div>
@@ -32,5 +54,7 @@
         <p>©<span id="year"></span> Bountiful Foods | Ian C. Hatcher | <span id="update"></span></p>
     </footer>
     <script src="scripts/lastupdate.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/sandwich.js"></script>
 </body>
 </html>

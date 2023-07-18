@@ -1,0 +1,90 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+    width: 20%;
+}
+header{
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    
+}
+#hero{
+    display: flex;
+    align-items: flex-end;
+}
+header,footer{
+    background-color: #4C2E05;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+div, section{
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    text-align: center;
+}
+.button{
+    background-color: #4F7CAC;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 10px;
+}
+/* nav button stuff, need to change colors*/
+nav{
+    width: 100%;
+}
+nav button{
+    background: transparent;
+    border: none;
+    font-size: 10vw;
+    margin: 5px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    background-color: #4CB963;
+    list-style-type: none;
+}
+
+nav ul li a{
+    display: block;
+    border-top: solid black 1px;
+    color: black;
+    padding: 5px;
+}
+nav ul li a:hover{
+    background-color: #4F7CAC;
+}
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+/*fonts */
+h1,h2,h3{
+    font-family: "Caveat";
+    font-weight: 400;
+}
+a,p{
+    font-family: "Dosis";
+    font-weight: 300;
+}
