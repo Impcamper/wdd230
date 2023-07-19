@@ -17,7 +17,7 @@ header{
     flex-direction: column;
 }
 footer{
-    
+    justify-content: space-evenly;
 }
 #hero{
     display: flex;

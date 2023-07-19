@@ -1,5 +1,30 @@
 @media only screen and (min-width: 450px){
-
-
+    header{
+        flex-direction: row;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    h1{
+        padding: 20px;
+        margin-left: 5vw;
+    }
+    section:not(#hero){
+        width: 45%;
+    }
+    /*more nav stuff*/
+    nav{
+        width: 20%;
+    }
+    nav ul{
+        position: absolute;
+        width: 20%;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
     
 }
