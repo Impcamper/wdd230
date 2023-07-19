@@ -15,6 +15,10 @@
     section:not(#hero){
         width: 45%;
     }
+    #social {
+        display: flex;
+        flex-direction: column;
+    }
     /*more nav stuff*/
     nav{
         width: 20%;
@@ -26,5 +30,6 @@
     nav ul li a{
         padding: 10px;
     }
+    
     
 }
