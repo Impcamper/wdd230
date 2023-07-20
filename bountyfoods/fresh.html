@@ -24,7 +24,7 @@
     </header>
     <main>
         <h2></h2>
-        <form method="get">
+        <form method="get" target="">
             <fieldset id="blockin">
                 <legend>Personal Details</legend>
                 <label>First Name*<input type="text" name="fname" required></label>
@@ -34,24 +34,30 @@
             </fieldset>
             <fieldset id="radios">
                 <legend>Drink details</legend>
-                <label >Fruit 1
-                    <select name="fruit1" class="fruit">
+                <label >Fruit 1*
+                    <select name="fruit1" class="fruit" required>
                         <!--These are filled by js-->
+                        <option></option>
                     </select>
                 </label>
                 <label">Fruit 2
                     <select name="fruit2" class="fruit">
-
+                        <option></option>
                     </select>
                 </label>
                 <label> Fruit 3
                     <select name="fruit3" class="fruit">
-
+                        <option></option>
                     </select>
                 </label>
-                <p id="foodinfo"></p>
             </fieldset>
+            <fieldset>
+                <legend>Special Instructions</legend>
+                <label><textarea name="special" rows="10"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Order Drink" id="submit">
         </form>
+        <section id="info"></section>
     </main>
     <footer>
         <h3>Using Openweather API</h3>

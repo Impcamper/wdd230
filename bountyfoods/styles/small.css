@@ -47,6 +47,28 @@ div, section{
     transform: translate(-50%);
     margin-bottom: 10px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    margin: 5px;
+}
+textarea{
+    width: 100%;
+}
+label, input,select{
+    display: block;
+}
+#submit{
+    align-self: center;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#info{
+    display: none;
+}
 /* nav button stuff, need to change colors*/
 nav{
     width: 100%;
